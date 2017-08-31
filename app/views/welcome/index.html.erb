@@ -6,7 +6,7 @@
 
 <body>
 	<div id="navbar">
-	
+		
 		<a href="https://www.stgeorges.bc.ca/page"><img src="https://preview.ibb.co/jr5KZ5/VMC_logo_words.jpg" alt="VMC_logo_words" id="logo"></a>
 
 <!--buttons-->
@@ -18,11 +18,15 @@
 
 		<a href="https://www.facebook.com/profile.php?id=100010316373138&ref=br_rs" class="fa fa-facebook"></a>
 
-		<p class="fa fa-follow">Follow Us!</p>
+		<p id="follow">Stay Connected!</p>
 <!--navbar-->
-		<h4 style="clear: both; float: right">Search...</h4>
 
-		<p style="clear: both; float: right">Home | About | <%= link_to 'Forum', controller: 'articles' %> | Events | Resources | Calender | Contact Us</p>
+		<form action="/action_page.php" style="clear: both; float: right;">
+  			Search <input type="text" name="search">
+  			<input type="submit" value="Submit">
+		</form> 
+			
+		<p id="directory"><br><br>Home | About | <%= link_to 'Forum', controller: 'articles' %> | Events | Resources | Calender | Contact Us</p>
 
 	</div>
 
@@ -49,31 +53,42 @@
 			<h1 id ="titles-index">Forum</h1>
 			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, </p>
 		</div>
+
+		<a href="https://www.facebook.com/profile.php?id=100010316373138&ref=br_rs"><img src="https://preview.ibb.co/m9pwE5/Thomas_1.jpg" alt="Thomas_1" border="0" class="temp-pic"></a><br /><a target='_blank' href='https://imgbb.com/'></a><br />
 <!--Events-->
 		<div id="events" class="mainpad">
 			<h1 id ="titles-index">Events</h1>
 			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, </p>
 		</div>
+
+		<a href="https://www.facebook.com/profile.php?id=100010316373138&ref=br_rs"><img src="https://image.ibb.co/cVS57Q/Thomas_2.jpg" alt="Thomas_2" border="0" class="temp-pic"></a><br /><a target='_blank' href='https://imgbb.com/'></a><br />
 <!--Resources-->
 		<div id="resources" class="mainpad">
 			<h1 id ="titles-index">Resources</h1>
 			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, </p>
 		</div>
-<!--Calender-->
-		<div id="calender" class="mainpad">
-			<h1 id="titles-index">Calender</h1>
+
+		<a href="https://www.facebook.com/profile.php?id=100010316373138&ref=br_rs"><img src="https://preview.ibb.co/m9pwE5/Thomas_1.jpg" alt="Thomas_1" border="0" class="temp-pic"></a><br /><a target='_blank' href='https://imgbb.com/'></a><br />
+<!--Calendar-->
+		<div id="calendar" class="mainpad">
+			<h1 id="titles-index">Calendar</h1>
 			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, </p>
 		</div>
+
+		<a href="https://www.facebook.com/profile.php?id=100010316373138&ref=br_rs"><img src="https://image.ibb.co/cVS57Q/Thomas_2.jpg" alt="Thomas_2" border="0" class="temp-pic"></a><br /><a target='_blank' href='https://imgbb.com/'></a><br />
 <!--Contact Us-->
 		<div id="contact" class="mainpad">
 			<h1 id ="titles-index">Contact Us</h1>
 			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, </p>
 		</div>
+
+		<a href="https://www.facebook.com/profile.php?id=100010316373138&ref=br_rs"><img src="https://preview.ibb.co/m9pwE5/Thomas_1.jpg" alt="Thomas_1" border="0" class="temp-pic"></a><br /><a target='_blank' href='https://imgbb.com/'></a><br />
+
 	</div>
 
 	<div id="footer">
 		<div id="ftmain">
-			<p style="color: #ffffff">The Vocal Music Club’s purpose is to provide a haven for singers of all styles and languages. We strive for a fun, positive, and inclusive environment. <span><a href="https://www.stgeorges.bc.ca/page/explore/mission-vision-and-values"><strong>Read more...</strong></a></span></p>
+			<p style="color: #ffffff">The Vocal Music Club’s purpose is to provide a haven for singers of all styles and languages. We strive for a fun, positive, and inclusive learning environment. <span><a href="https://www.stgeorges.bc.ca/page/explore/mission-vision-and-values"><strong>Read more...</strong></a></span></p>
 		</div>
 		<div id="ftfooter">
 			<p style="color: #C9C0C0">© Copyright 2017 St. George's Vocal Music Club. All rights reserved.</p>

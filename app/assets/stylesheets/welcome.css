@@ -3,9 +3,9 @@ body {
 }
 
 #logo {
-	border-width: : 1px;
-	border-color: black;
-	border-style: solid;
+	border-radius: 20px;
+	border: 2px solid black;
+	margin: 10px;
 	height: 200px;
 	width: auto;
 }
@@ -46,9 +46,9 @@ body {
 	color: white;
 }
 
-.fa-follow{
-	margin-right: 30px;
-	padding: 5px;
+#follow{
+	float:right;
+	padding: 2px 0px 10px 5px;
 }
 
 .fa:hover {
@@ -61,14 +61,19 @@ body {
 	background-color: #323030;
 	color: #ffffff;
 	font-family: Verdana, Futura, Tahoma;
-	font-size: 15px;
+	font-size: 1em;
 }
+
+#directory {
+	 clear: both; 
+	 float: right;
+	 }
 
 /*MAIN*/
 
 .mainpad{
-	padding-left: 200px;
-	padding-right: 200px;
+	background: gray;
+	padding: 50px 200px 50px 200px;
 }
 
 #titles-index {
@@ -77,10 +82,59 @@ body {
 	color: white;
 }
 
+/*Title*/
+
+
+
+/*ABOUT*/
+
+#about {
+	background: #630826;
+	padding: 50px 0px 50px 0px;
+}
+
+/*Title*/
+
+#forum {
+	background: #630826;
+	padding: 50px 0px 50px 0px;
+}
+
+/*EVENTS*/
+
+#events {
+	background: #630826;
+	padding: 50px 0px 50px 0px;
+}
+
+/*RESOURCES*/
+
+#resources { 
+	background: #630826;
+	padding: 50px 0px 50px 0px;
+}
+
+/*CALENDAR*/
+
+#calendar {
+	background: #630826;
+	padding: 50px 0px 50px 0px;
+}
+
+/*CONTACT*/
+
+#contact {
+	background: #630826;
+	padding: 50px 0px 50px 0px;
+}
+
+/*Above seems repetitive but will individualize later on*/
+
 img.temp-pic {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	padding: 50px 0px 50px 0px;
 }
 
 /*FOOTER*/
