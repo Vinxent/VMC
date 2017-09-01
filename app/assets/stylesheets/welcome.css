@@ -1,11 +1,9 @@
 body {
-	background-color: #237185;
+	background-color: #0f0f0f;
 	margin: 0;
 }
 
 #header {
-	padding: 45px;
-	background: #0f0f0f;
 	color: white;
 	text-align: center;
 }
@@ -85,7 +83,7 @@ body {
 
 #redbar {
 	padding: 2px;
-	background: red;
+	background: #E51D39;
 	clear: both;
 }
 
