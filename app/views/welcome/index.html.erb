@@ -5,10 +5,7 @@
 </head>
 
 <body>
-	<div id="navbar">
-		
-		<a href="https://www.stgeorges.bc.ca/page"><img src="https://preview.ibb.co/jr5KZ5/VMC_logo_words.jpg" alt="VMC_logo_words" id="logo"></a>
-
+	<div id="header">
 <!--buttons-->
 		<a href="#" class="fa fa-envelope"></a>
 
@@ -17,17 +14,26 @@
 		<a href="#" class="fa fa-linkedin"></a>
 
 		<a href="https://www.facebook.com/profile.php?id=100010316373138&ref=br_rs" class="fa fa-facebook"></a>
+	</div>
 
-		<p id="follow">Stay Connected!</p>
-<!--navbar-->
+	<div id="navbar">
+		
+		<a href="https://www.stgeorges.bc.ca/page"><img src="https://preview.ibb.co/cY1TBk/LOGO_WORDS_2.jpg" alt="LOGO_WORDS_2" border="0" id="logo"></a>
+		
+	</div>
 
-		<form action="/action_page.php" style="clear: both; float: right;">
-  			Search <input type="text" name="search">
-  			<input type="submit" value="Submit">
-		</form> 
+	<div id="directory">
 			
-		<p id="directory"><br><br>Home | About | <%= link_to 'Forum', controller: 'articles' %> | Events | Resources | Calender | Contact Us</p>
+			<p>Home | About | <%= link_to 'Forum', controller: 'articles' %> | Events | Resources | Calender | Contact Us</p>
 
+			<form action="/action_page.php" id ="search">
+  				Search <input type="text" name="search">
+  				<input type="submit" value="Submit">
+			</form> 
+
+	</div>
+
+	<div id='redbar'>
 	</div>
 
 	<div id="main">
