@@ -234,9 +234,9 @@ a {
 
 a:hover 
 {
-     color:#ffffff; 
+     color: #ffffff; 
      text-decoration:none; 
-     cursor:pointer;  
+     cursor: pointer;  
      opacity: 0.8;
 }
 
