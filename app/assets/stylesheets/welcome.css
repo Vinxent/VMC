@@ -46,13 +46,11 @@ body {
 /*icons END*/
 
 #logo {
-	border-radius: 20px;
-	border: 2px solid red;
 	background-color: #323030;
-	margin: 10px;
+	margin: 10px 0px 10px 10px;
 	height: 100px;
 	width: auto;
-	text-align: left;
+	float: left;
 }
 
 #logo:hover {
@@ -61,17 +59,77 @@ body {
 
 #navbar  {
 	background-color: #323030;
-	color: #ffffff;
-	font-family: Verdana, Futura, Tahoma;
+	color: #000000;
+	font-family: Garamond, Futura, Tahoma;
 	font-size: 1em;
 	clear: both;
+	width: 100%
+	height auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+	float: left;
+    border-right:1px solid #0f0f0f;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li:hover {
+	background-color: gray;
+}
+
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #323030;
+    background-image: url('http://www.iconsdb.com/icons/preview/white/search-3-xxl.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    background-size: 15px;
+    padding: 6px 10px 6px 30px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    color: white;
+    float: right;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+}
+
+.menu_text {
+	font-weight: bold;
+	font-size: 1.2em;
 }
 
 #directory {
 	padding: 10px; 
 	background-color: #323030;
-	color: #ffffff;
-	font-family: Verdana, Futura, Tahoma;
+	color: #000000;
+	font-family: Garamond, Futura, Tahoma;
 	font-size: 1em;
 	width: 100%;
 	}
@@ -170,7 +228,7 @@ img.temp-pic {
 }
 
 a {
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
 }
 

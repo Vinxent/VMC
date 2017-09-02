@@ -14,8 +14,6 @@
 		<a href="#" class="fa fa-linkedin"></a>
 
 		<a href="https://www.facebook.com/profile.php?id=100010316373138&ref=br_rs" class="fa fa-facebook"></a>
-
-		
 	</div>
 
 	<div id='redbar'>
@@ -23,19 +21,46 @@
 
 	<div id="navbar">
 		
-		<a href="https://www.stgeorges.bc.ca/page"><img src="https://preview.ibb.co/cY1TBk/LOGO_WORDS_2.jpg" alt="LOGO_WORDS_2" border="0" id="logo"></a>
-		
-	</div>
-
-	<div id="directory">
+		<a href="https://www.stgeorges.bc.ca/page"><img src="https://preview.ibb.co/fVSmYa/LOGO_WORDS_2_gray_background.jpg" alt="LOGO_WORDS_2_gray_background" border="0" id="logo"></a>
 			
-			<p>Home | About | <%= link_to 'Forum', controller: 'articles' %> | Events | Resources | Calender | Contact Us</p>
-
+		<ul class="menu_container">
+			<li class="menu_item">
+				<a class="menu_text" href="/welcome/index">Home</a>
+			</li>
+			<li class="menu_item">
+				<a class="menu_text" href="/about">About</a>
+			</li>
+			<li class="menu_item">
+				<a class="menu_text" href="/articles">Forum</a>
+			</li>
+			<li class="menu_item">
+				<a class="menu_text" href="/events">Events</a>
+			</li>
+			<li class="menu_item">
+				<a class="menu_text" href="/resources">Resources</a>
+			</li>
+			<li class="menu_item">
+				<a class="menu_text" href="/calendar">Calendar</a>
+			</li>
+			<li class="menu_item">
+				<a class="menu_text" href="/contact-us">Contact us</a>
+			</li>
+			<li>
+				<a class="menu_text" href="#">Search</a>
+			</li>
+			<li>
+				<a class="menu_text" href="#">.</a>
+			</li>
+			<li>
+				<a class="menu_text" href="#">.</a>
+			</li>
+			
 			<form action="/action_page.php" id ="search">
-  				Search <input type="text" name="search">
-  				<input type="submit" value="Submit">
+				<input type="text" name="search" placeholder="Search..">
 			</form> 
 
+		</ul>
+		<br><br>
 	</div>
 
 	<div id='redbar'>
