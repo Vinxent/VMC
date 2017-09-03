@@ -1,19 +1,64 @@
-body {
-	background-color: #323030;
+body, html {
+	background: #E5E1E0;
+	height: 100%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('https://images6.alphacoders.com/374/374706.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    text-align: center;
+}
+
+.parallax2 {
+
+	background-image: url('http://cast-soft.com/blog/wp-content/uploads/Storm-Shanghai-Main-Stage-1016-Photo-01-1.jpg');
+
+	height: 100%;
+
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    text-align: center;
+}
+
+#welcome-text {
+	width: 100%;
+  	text-align: center;
+  	display: inline-block;
+  	margin-top: 21%;
+  	margin-bottom: 17%;
+}
+
+#welcome-text p{
+	margin-top: 15%;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 5em;
+	color: white;
+	text-align: center;
 	margin: 0;
+	padding: 0;
 }
 
-#welcome {
-	height: 620px;
-	width: 100%;
-	opacity: 0.5;
-	overflow: hidden;
+#w-subheader {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 3em;
+	color: white;
 }
 
-#welcome img {
-	height: 130%;
-	width: 100%;
-}
 
 #welcome-navbar {
 	background-color: black;
@@ -29,6 +74,10 @@ li#space:hover{
 
 li.w-menu_item {
 	border: none;
+}
+
+li.w-menu_item:hover {
+	background-color: black;
 }
 
 /*ICONS*/
@@ -112,6 +161,10 @@ li.w-menu_item {
 	height auto;
 }
 
+li.menu_container {
+	padding: 50px;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -182,6 +235,7 @@ input[type=text]:focus {
 #search {
 	padding: 10px;
 	float: right;
+	clear: both;
 }
 
 #redbar {
@@ -195,6 +249,7 @@ input[type=text]:focus {
 .mainpad{
 	background: gray;
 	padding: 50px 200px 50px 200px;
+	display: block;
 }
 
 #titles-index {
@@ -202,6 +257,7 @@ input[type=text]:focus {
 	font-family: Verdana;
 	color: white;
 }
+
 
 /*Title*/
 

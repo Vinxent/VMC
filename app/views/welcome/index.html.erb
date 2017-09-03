@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html>
 <!-- Make Divs -->
 <head>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -5,10 +7,18 @@
 </head>
 
 <body>
+
+	<div id='redbar'>
+	</div>
+
 	<div id="welcome-container">
 
-		<div id="welcome">
-			<img src="https://images6.alphacoders.com/374/374706.jpg"/>
+		<div class="parallax">
+
+			<div id="welcome-text">
+				<p>VOCAL MUSIC CLUB<br><h1 id="w-subheader">St. George's School</h1></p>
+			</div>
+
 		</div>
 
 		<div id="welcome-navbar">
@@ -85,9 +95,6 @@
 			<li>
 				<a class="menu_text" href="#">.</a>
 			</li>
-			<li>
-				<a class="menu_text" href="#">.</a>
-			</li>
 			
 			<form action="/action_page.php" id ="search">
 				<input type="text" name="search" placeholder="Search..">
@@ -102,13 +109,15 @@
 
 	<div id="main">
 <!--Title/Home-->
+		
 		<div id="title" class="mainpad">
 			<h1 id ="titles-index">Welcome to the Vocal Music Club</h1>
 			<h2 id ="titles-index">The time is now <%= Time.now %></h2>
 			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, </p>
 		</div>
-		
+		<div class="parallax parallax2">
 		<a href="https://www.facebook.com/profile.php?id=100010316373138&ref=br_rs"><img src="https://preview.ibb.co/m9pwE5/Thomas_1.jpg" alt="Thomas_1" border="0" class="temp-pic"></a><br /><a target='_blank' href='https://imgbb.com/'></a><br />
+		</div>
 
 <!--About-->
 		<div id="about" class="mainpad">
@@ -168,3 +177,4 @@
 		</div>
 	</div>
 </body>
+</html>
