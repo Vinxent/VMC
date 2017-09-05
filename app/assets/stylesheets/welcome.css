@@ -34,11 +34,14 @@ body, html {
 }
 
 #welcome-text {
-	width: 100%;
+	width: 60%;
   	text-align: center;
   	display: inline-block;
   	margin-top: 21%;
   	margin-bottom: 17%;
+  	border-top: 3px solid;
+  	border-bottom: 3px solid;
+  	border-color: #E51D39;
 }
 
 #welcome-text p{
@@ -239,7 +242,7 @@ input[type=text]:focus {
 }
 
 #redbar {
-	padding: 2px;
+	padding: 5px;
 	background: #E51D39;
 	clear: both;
 }
